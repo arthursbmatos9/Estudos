@@ -1,0 +1,41 @@
+-Mostrar tipo da variável
+	print(type(x))
+
+-Converter para um tipo específico
+	idade = int(input('Digite sua idade: '))
+
+-Formatar
+	usuario = input()
+	print(f'Olá, {usuario}!)
+
+-Operadores
+	** exponenciação (raiz quadrada é so elevar a fração)
+	// divisao inteira
+
+-Python não tem limite para os tipos (int = 2^32), ele consegue armazenar, no máximo, número do tamanho da memória
+
+-Estilizar saída
+	print(f'Teste {Arthur:20}') -> imprime Arthur em 20 espacos
+	print(f'Teste {Arthur:>20}') -> imprime Arthur em 20 espacos, com Arthur alinhado na direita
+	print(f'Teste {Arthur:<20}') -> imprime Arthur em 20 espacos, com Arthur alinhado na esquerda
+	print(f'Teste {Arthur:^20}') -> imprime Arthur em 20 espacos, com Arthur alinhado no meio
+	print(f'Teste {Arthur:=^20}') -> imprime Arthur em 20 espacos, com Arthur alinhado no meio com = em volta
+
+-Se não quiser dar \n automaticamente com print()
+	print('Hello World!', end=' ')	
+
+-Alguns métodos
+	isalnum – Verifique se todos os caracteres no texto são alfanuméricos
+	isalpha – Verifique se todos os caracteres no texto são letras
+	isascii – Verifique se a sequência é composta por todos os caracteres ASCII ou se a sequência estiver vazia também retornara true
+	isdecimal – Verifique se todos os caracteres no objeto unicode são decimais
+	isdigit – Verifique se todos os caracteres no texto são dígitos
+	isidentifier – Verifique se a sequência é um identificador válido :: O método isidentifier () retornará True se a string for um identificador válido, caso contrário, 
+		False. Uma sequência é considerada um identificador válido se contiver apenas letras alfanuméricas (a-z) e (0-9) ou sublinhados (_). Um identificador válido
+		não pode começar com um número ou conter espaços.
+	islower – Verifique se todos os caracteres do texto estão em minúsculas
+	isnumeric – Verifique se todos os caracteres no texto são numéricos
+	isprintable – Verifique se todos os caracteres no texto são imprimíveis
+	isspace – Verifique se todos os caracteres no texto são espaços em branco
+	istitle – Verifique se cada palavra começa com uma letra maiúscula
+	isupper – Verifique se todos os caracteres do texto estão em maiúsculas

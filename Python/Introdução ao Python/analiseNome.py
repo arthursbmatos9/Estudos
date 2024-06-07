@@ -8,6 +8,8 @@ nome = input()
 
 nomeMaiusculo = nome.upper()
 print(f'O nome todo em maiusculo fica {nomeMaiusculo}.')
+nomeMinusculo = nome.lower()
+print(f'O nome todo em minusculo fica {nomeMinusculo}.')
 
 tamSemEspacos = len(nomeMaiusculo) - nomeMaiusculo.count(' ')
 print(f'Sem contar espacos, seu nome tem tamanho igual a {tamSemEspacos}.')

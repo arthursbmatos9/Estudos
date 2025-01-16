@@ -10,7 +10,7 @@ class Veiculo{
 class Carro: Veiculo {
     var tipo: String?
 
-    override func desc() {
+    override func desc() {     //sobrescrevendo o metodo desc da super classe - usamos a palavra override antes da funcao
         super.desc()
         print("Tipo do carro: \(self.tipo ?? "Desconhecido")")
     }

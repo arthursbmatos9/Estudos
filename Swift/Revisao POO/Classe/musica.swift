@@ -1,11 +1,13 @@
-//Criem uma classe chamada Musica, e adicione os atributos que vocês imaginam pra música.
-
 class Musica{
     var nome:String?
     var cantor:String?
     
+    init() {
+        print("Usa-se init como construtor de uma classe em Swift.")
+    }
+
     func qualMusica(){
-        print("\(self.nome!) é de \(self.cantor!).")
+        print("A música \(self.nome!) é de \(self.cantor!).")
     }
 }
 
